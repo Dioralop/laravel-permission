@@ -2,7 +2,7 @@
 
 namespace Spatie\Permission\Contracts;
 
-use Illuminate\Database\Eloquent\Relations\BelongsToMany;
+use Jenssegers\Mongodb\Relations\BelongsToMany;
 
 interface Permission
 {
